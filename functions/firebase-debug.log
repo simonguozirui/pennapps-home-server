@@ -1,0 +1,20 @@
+[debug] [2017-09-09T06:59:49.998Z] ----------------------------------------------------------------------
+[debug] [2017-09-09T06:59:50.001Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve --only functions
+[debug] [2017-09-09T06:59:50.001Z] CLI Version:   3.9.2
+[debug] [2017-09-09T06:59:50.001Z] Platform:      darwin
+[debug] [2017-09-09T06:59:50.001Z] Node Version:  v8.4.0
+[debug] [2017-09-09T06:59:50.004Z] Time:          Sat Sep 09 2017 02:59:50 GMT-0400 (EDT)
+[debug] [2017-09-09T06:59:50.004Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-09T06:59:50.063Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-09T06:59:50.064Z] > authorizing via signed-in user
+[debug] [2017-09-09T06:59:50.066Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-09-09T06:59:50.066Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/gJhYPP9ycJk3zrwBKiPtRWGyzGkzAuqbE06x2BFWrYA',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat Sep 09 2017 02:59:50 GMT-0400 (EDT)
+[debug] [2017-09-09T06:59:50.318Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-09T06:59:50.339Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/tell-me-82675  
+ Sat Sep 09 2017 02:59:50 GMT-0400 (EDT)

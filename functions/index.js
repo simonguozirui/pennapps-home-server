@@ -19,7 +19,7 @@ const functions = require('firebase-functions');
 
 // API.AI actions
 const UNRECOGNIZED_DEEP_LINK = 'deeplink.unknown';
-const TELL_FACT = 'tell.fact';
+const TELL_FACT = 'tell_fact';
 const TELL_CAT_FACT = 'tell.cat.fact';
 
 // API.AI parameter names
