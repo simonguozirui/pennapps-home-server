@@ -1,6 +1,6 @@
 {
-  "name": "facts-about-google",
-  "description": "Fun way to learn more about Google!",
+  "name": "silly-name-maker",
+  "description": "Find out your silly name!",
   "version": "0.0.1",
   "private": true,
   "license": "Apache Version 2.0",
@@ -9,16 +9,25 @@
     "node": "~4.2"
   },
   "scripts": {
-    "lint": "semistandard --fix \"**/*.js\"",
+    "lint": "eslint --fix \"**/*.js\"",
     "start": "firebase serve --only functions",
-    "deploy": "firebase deploy --only functions"
+    "deploy": "firebase deploy --only functions",
+    "test": "npm run lint"
   },
   "dependencies": {
     "actions-on-google": "^1.0.0",
+    "express": "^4.15.4",
     "firebase-admin": "^4.2.1",
-    "firebase-functions": "^0.5.7"
+    "firebase-functions": "^0.5.7",
+    "ws": "^3.1.0"
   },
   "devDependencies": {
-    "semistandard": "^9.1.0"
+    "eslint": "^3.19.0",
+    "eslint-config-semistandard": "^11.0.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-node": "^5.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
   }
 }
