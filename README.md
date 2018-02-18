@@ -1,3 +1,8 @@
+# Home Point Google Home and Cloud Function Code
+[Check out our project](https://devpost.com/software/home-point)
+
+# This Application is developed based on Google Home's Silly Name Maker Example Code
+
 # Actions on Google: Silly Name Maker Sample using Node.js and Cloud Functions for Firebase
 
 This is a super simple Assistant app, built using API.AI and Node.js, to
